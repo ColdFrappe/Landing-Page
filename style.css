@@ -1,0 +1,23 @@
+.Header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif, 'Times New Roman';
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 0px 50px 0px 50px;
+}
+#Header_Logo {
+    display: flex;
+    justify-content: flex-start;
+    color: b
+}
+#Right_Links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
