@@ -1,3 +1,25 @@
+body {
+    display: flex;
+    flex-flow: column;
+    font-family: 'Roboto', sans-serif, 'Times New Roman';
+    background-color: #1F2937
+}
+p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 5px ;
+    padding: 6px 0 6px 0;
+    font-size: 15px;
+    width: 200px;
+}
+.Header_Section {
+    background-color: #1F2937;
+}
 .Header {
     display: flex;
     flex-flow: row nowrap;
@@ -12,7 +34,6 @@
 #Header_Logo {
     display: flex;
     justify-content: flex-start;
-    color: b
 }
 #Right_Links {
     display: flex;
@@ -20,4 +41,64 @@
     gap: 10px;
     font-size: 18px;
     color: #E5E7EB;
+}
+.Hero_Text_Section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 0 50px 50px 50px;
+    gap: 50px;
+
+}
+#Hero_Text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+#Left_Hero_Text {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 0.5 1 50%
+}
+#Sign_Up_Hero {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 5px ;
+    padding: 6px 0 6px 0;
+    font-size: 15px;
+    width: 200px;
+}
+#Right_Image {
+    flex: 0 1 50%
+}
+.Multi_Section {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #F9FAF8;
+}
+#Title_Mult {
+    display: flex;
+    align-self: center;
+}
+#Img_Mult {
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-self: center;
+}
+.Images {
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+.Quote_Section {
+    background-color: #E5E7EB;
+}
+#Quote_Text {
+    color: #1F2937;
+}
+#Thor {
+    color:inherit;
+}
+.Sign_Up_Section {
+    background-color: #F9FAF8;
 }
