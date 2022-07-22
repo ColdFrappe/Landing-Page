@@ -19,6 +19,9 @@ button {
 }
 .Header_Section {
     background-color: #1F2937;
+    justify-content: center;
+    align-self: center;
+    flex: 1 1 100%;
 }
 .Header {
     display: flex;
@@ -64,40 +67,83 @@ button {
     background-color: #3882F6;
     color: #E5E7EB;
     border: none;
-    border-radius: 5px ;
+    border-radius: 5px;
     padding: 6px 0 6px 0;
     font-size: 15px;
     width: 200px;
 }
 #Right_Image {
-    flex: 0 1 50%
+    flex: 0 1 30%;
 }
 .Multi_Section {
     display: flex;
     flex-flow: column nowrap;
     background-color: #F9FAF8;
+    align-self: stretch;
+    justify-content: center;
+}
+#Information_Header_Text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
 }
 #Title_Mult {
     display: flex;
     align-self: center;
+    align-items: stretch;
 }
 #Img_Mult {
-    flex-flow: row nowrap;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
     justify-content: center;
-    align-self: center;
+    gap: 1%;
+}
+#Img_Mult p {
+    color: #1F2937;
+}
+.Container_Image_Text {
+    flex: 1 1 10%;
+    max-width: 12.5%;
 }
 .Images {
     border: 2px solid #3882F6;
     border-radius: 10px;
+    max-width: 100%;
+    align-self: center;
+    justify-content: center;
 }
 .Quote_Section {
+    display: flex;
+    flex-flow: column wrap;
     background-color: #E5E7EB;
 }
 #Quote_Text {
+    display: flex;
+    flex-flow: column wrap;
     color: #1F2937;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+#Quote_Text p {
+    color: #1F2937;
+    align-self: center;
+    justify-content: center;
+    max-width: 50%;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
 }
 #Thor {
     color:inherit;
+    max-width: 30%;
+    align-self: flex-end;
+    justify-content: flex-end;
 }
 .Sign_Up_Section {
     background-color: #F9FAF8;
